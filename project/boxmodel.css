@@ -26,8 +26,10 @@ body {
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
     background-size: cover;
     background-position: bottom center;
-    height: 700px;
-    width: 100%;
+    max-height: 600px;
+    min-height: 300px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 #banner .content h1 {
@@ -79,7 +81,7 @@ p {
     margin-top: 60px;
     /*border: 3px solid DarkSlateGrey;*/
     min-width: 300px;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .pull-quote {
@@ -120,7 +122,7 @@ p {
 }
 
 #myimage {
-    height: 80px;
+    height: 120px;
     width: 80px;
     padding-bottom: 5px;
 }
