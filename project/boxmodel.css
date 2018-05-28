@@ -26,8 +26,8 @@ body {
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
     background-size: cover;
     background-position: bottom center;
-    max-height: 600px;
-    min-height: 300px;
+    max-height: 1000px;
+    min-height: 400px;
     width: 70%;
     margin: 0 auto;
 }
