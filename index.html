@@ -5,90 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css" style="text/css">
     <title>QuangSang</title>
 </head>
 <style>
-    a {
-        padding-left: 30px;
-        /*border: 5px solid black;*/
-        padding-top: px;
-    }
-    
-    .actile {
-        padding-left: 50px;
-        padding-top: 20px;
-        color: red;
-    }
-    
-    nav {
-        padding: 30px 0px 20px 40px;
-        border: 5px solid green;
-        border-radius: 30px;
-    }
-    
-    .contact a {
-        color: green;
-    }
-    
-    .project a {
-        color: black;
-        padding-left: 20px;
-    }
-    
-    #bg {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-    }
-    
-    body {
-        font-family: Helvetica;
-    }
+
 </style>
 
 <body>
-    <div id="bg">
-        <img width="100%" height="100%" src="./image/anime_girl_and_owl-wallpaper-1920x1080.jpg" />
-    </div>
-    <nav>
-        <div class="contact ">
-            <a href="./ " target=" ">
-                <strong class="contact "><i>Home</i></strong>
-            </a>
-            <a href="./about.html " target=" ">
-                <strong><i>About</i></strong>
-            </a>
-            <a href="./contact.html " target=" ">
-                <strong><i>Contact</i></strong>
-            </a>
-        </div>
-        <div class="project ">
-            <h2 class="actile ">List My Project</h2>
 
-            <br>
-            <a href="https://github.com/Shekcon/Shekcon.github.io " target=" ">
-                <strong><i>GitHub</i></strong>
-            </a>
-            <a href="./table.html " target=" ">
-                <strong><i>Table</i></strong>
-            </a>
-            <a href="./project/index.html " target=" ">
-                <strong><i>Table of HTML</i></strong>
-            </a>
-            <a href="./project/projectcss.html " target=" ">
-                <strong><i>Project CSS</i></strong>
-            </a>
-            <a href="./project/boxmodel.html " target=" ">
-                <strong><i>Box Model</i></strong>
-            </a>
-            <a href="./project/broadway.html " target=" ">
-                <strong><i>Broad Way</i></strong>
-            </a>
-        </div>
-    </nav>
+    <div id="menu">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+                <ul id="submenu">
+                    <!--    <li><a href="">item</a></li>
+                    <li><a href="">item</a></li>
+                    <li><a href="">item</a></li>
+                    <li><a href="">item</a></li>
+                    <li><a href="">item</a></li>   -->
+                </ul>
+            </li>
+            <li>
+                <a href="#">Project</a>
+                <ul id="submenu">
+                    <li><a href="./project/broadway.html">Broad Way</a></li>
+                    <li><a href="./table.html">Table HTML</a></li>
+                    <li><a href="./project/projectcss.html">ProjectCss/a></li>
+                    <li><a href="#">item</a></li>
+                    <li><a href="#">item</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Unknown</a>
+                <ul id="submenu">
+                    <!--    <li><a href="">item</a></li>
+                    <li><a href="">item</a></li>
+                    <li><a href="">item</a></li>
+                    <li><a href="">item</a></li>
+                    <li><a href="">item</a></li>   -->
+                </ul>
+            </li>
+            <li>
+                <a href="#">About</a>
+                <ul id="submenu">
+                    <!--  <li><a href="">item</a></li>
+                    <li><a href="">item</a></li>
+                    <li><a href="">item</a></li>
+                    <li><a href="">item</a></li>
+                    <li><a href="">item</a></li>  -->
+                </ul>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+                <ul id="submenu">
+                    <li><a href="https://www.facebook.com/factofmylife">Facebook</a></li>
+                    <li><a href="https://github.com/Shekcon">Github</a></li>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
 
 </body>
 
