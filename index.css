@@ -8,7 +8,7 @@
 }
 
 #menu ul {
-    text-align: center;
+    text-align: left;
     background: #333333;
     list-style: none;
     overflow: auto;
@@ -24,6 +24,7 @@
     background: #333333;
     display: relative;
     overflow: auto;
+    text-align: center;
 }
 
 #menu ul li a {
@@ -39,7 +40,8 @@
 #menu ul li #submenu {
     display: none;
     position: absolute;
-    width: 14%;
+    width: 20%;
+    overflow: hidden;
 }
 
 #menu ul li ul li {
@@ -49,8 +51,8 @@
 }
 
 #menu ul li #submenu li a {
-    color: lightgrey;
-    background: #333333;
+    color: black;
+    background: lightgray;
     display: block;
     width: 100%;
     height: 20%;
