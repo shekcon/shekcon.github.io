@@ -13,17 +13,15 @@
     list-style: none;
     overflow: auto;
     display: fixed;
-    margin: 0 auto;
 }
 
 #menu ul li {
     display: inline-table;
     width: 14%;
-    line-height: 300%;
+    line-height: 70px;
     font-size: 20px;
     background: #333333;
     display: relative;
-    overflow: auto;
 }
 
 #menu ul li a {
@@ -32,28 +30,23 @@
     width: 100%;
     height: 30%;
     font-size: 20px;
-    opacity: 0.6;
+    opacity: 0.7;
     text-decoration: none;
 }
 
 #menu ul li #submenu {
+    width: 116px;
+    line-height: 40px;
     display: none;
     position: absolute;
-    width: 14%;
-}
-
-#menu ul li ul li {
-    width: 100%;
-    display: block;
-    font-size: 16px;
+    overflow: auto;
+    background: red;
 }
 
 #menu ul li #submenu li a {
     color: lightgrey;
+    width: 116px;
     background: #333333;
-    display: block;
-    width: 100%;
-    height: 20%;
 }
 
 #menu ul li a:hover {
