@@ -1,30 +1,98 @@
-.App {
-  text-align: center;
+
+.link {
+  color: #61dafb;
 }
 
-.App-logo {
-  border-radius: 50%;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-color {
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 }
 
-.App-content {
+.body-container{
+  background-image: url("assets/img/backgroud.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #4286f4; 
   text-align: center;
-  margin: 0 auto 0 auto;
-  width: 70%;
+  font-family: 'MaisonNeue','Helvetica',sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.625;
+  color: whitesmoke;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
-.App-link {
-  color: #61dafb;
+.body-container-transparent{
+  background: #4286f4;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+}
+
+.body-container-content{
+  top: 0;
+  position: relative;
+  z-index: -1;
+}
+
+
+.body-avatar > img {
+  border-radius: 50%;
+  margin: auto;
+}
+
+.body-avatar {
+  padding-top: 100px; 
+  width: 100%;
+}
+
+.body-content {
+  margin: 0 auto 0 auto;
+  width: 80%;
+}
+
+.body-social{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin: auto;  
+}
+
+.body-social a > i {
+  font-size: 3.5em;
+  padding: 20px;
+}
+
+.social-github {
+  color: #373B44;
+}
+
+.social-linkedin {
+  color: #4dabf7;
+}
+
+.menu-title {
+  background: #0f2027;
+  color: white;
+}
+
+.menu-link {
+  padding: 0; 
+  margin: 0;
+}
+
+.menu-link-content {
+  color: white;
+}
+
+.menu-link-content > a:hover{
+  color: #0f2027;
 }
 
